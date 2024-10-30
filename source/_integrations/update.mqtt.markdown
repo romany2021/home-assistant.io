@@ -341,7 +341,7 @@ in_progress:
 update_percentage:
   description: Number between 0 and 100 to report the update process. A `null` value resets the in progress state.
   required: false
-  type: ["integer", "float", "null"]
+  type: ["integer", "float", "none"]
 {% endconfiguration %}
 
 For the above JSON payload examples, the `update` entity configuration should look like this:
