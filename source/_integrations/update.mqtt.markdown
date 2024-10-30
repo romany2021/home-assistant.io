@@ -336,6 +336,7 @@ entity_picture:
 in_progress:
   description: Boolean to report an update is in progress or not.
   required: false
+  default: false
   type: boolean
 update_percentage:
   description: Number between 0 and 100 to report the update process. A `null` value resets the in progress state.
