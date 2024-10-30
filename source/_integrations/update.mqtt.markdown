@@ -235,7 +235,7 @@ mqtt:
 
 {% endraw %}
 
-JSON can also be used as `state_topic` payload. Not that this also allows process progress information.
+JSON can also be used as `state_topic` payload. Note that this also allows process progress information.
 
 {% raw %}
 
