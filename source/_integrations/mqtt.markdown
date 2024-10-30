@@ -647,21 +647,6 @@ support_url:
   description: Support URL of the application that supplies the discovered MQTT item.
 {% endconfiguration_basic %}
 
-
-#### Adding information about the origin of a discovery message
-
-It is recommended to add additional information about the origin that supplies MQTT entities via MQTT discovery by adding the `origin` option (can be abbreviated to `o`) to the discovery payload. For device-based discovery, adding shared `origin` info is required. Note that these options also support abbreviations. The origin information will be in the core event log when an item is discovered or updated.
-
-{% configuration_basic %}
-name:
-  description: The name of the application that is the origin of the discovered MQTT item. This option is required.
-sw_version:
-  description: Software version of the application that supplies the discovered MQTT item.
-support_url:
-  description: Support URL of the application that supplies the discovered MQTT item.
-{% endconfiguration_basic %}
-
-
 #### Supported abbreviations in MQTT discovery messages
 
 {% details "Supported abbreviations" %}
@@ -1055,8 +1040,6 @@ payload_not_available:
 {% endconfiguration %}  
 
 {% enddetails %}
-
-### Discovery examples
 
 ### Discovery examples with component discovery
 
