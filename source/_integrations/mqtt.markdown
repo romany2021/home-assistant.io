@@ -617,6 +617,7 @@ Example discovery payload:
   "state_topic":"sensorBedroom/state",
   "qos": 2,
 }
+```
 
 To remove the component, publish an empty string to the discovery topic. This will remove the component and clear the published discovery payload. It will also remove the device entry if there are no further references to it.
 
