@@ -58,6 +58,7 @@ Although most changes are likely to be minor, Home Assistant may change its Priv
 
 - October 19, 2017: Initial version
 - October 19, 2020: Add information about Companion Applications
+- October 30, 2024: Add health data to Companion Applications
 
 _This privacy policy has been adapted from the [Automattic privacy policy][Home Assistant] and is licensed [Creative Commons ShareAlike][cc]._
 
