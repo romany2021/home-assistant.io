@@ -326,7 +326,7 @@ release_summary:
   required: false
   type: string
 release_url:
-  description: URL pointing the the software release notes.
+  description: URL pointing to the software release notes.
   required: false
   type: string
 entity_picture:
