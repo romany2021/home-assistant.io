@@ -120,6 +120,11 @@ device_class:
   description: The [type/class](/integrations/update/#device-classes) of the update to set the icon in the frontend. The `device_class` can be `null`.
   required: false
   type: device_class
+display_precision:
+  description: Number of decimal digits for display of update progress.
+  required: false
+  type: integer
+  default: 0
 enabled_by_default:
   description: Flag which defines if the entity should be enabled when first added.
   required: false
