@@ -48,7 +48,7 @@ Ads appearing on any of our websites may be delivered to users by advertising pa
 
 ## Companion Applications
 
-All information collected by the applications is sent directly to your hosted instance of Home Assistant. This includes, but is not limited to, sensor data and location data, which at times is sent while the application is in the background. At no point is this data logged or given to a 3rd party.
+All information collected by the applications is sent directly to your hosted instance of Home Assistant. This includes, but is not limited to, sensor, health, and location data, which at times is sent while the application is in the background. At no point is this data logged or given to a 3rd party.
 
 ## Privacy Policy Changes
 
