@@ -37,6 +37,7 @@ If you see an "Unable to connect" message, restart the gateway and try again. Do
 There is currently no dedicated core integration for the Dirigera hub released in October 2022.
 
 The Dirigera hub can, however, be integrated directly via the [HomeKit device](/integrations/homekit_controller/) integration. This configuration even provides events for motion sensors and buttons, which the original integration lacks.
+Alternatively, Dirigera can be controlled via Matter server integration. To activate, go to Dirigera Settings > Integrations > Matter Bridge. Connect with provided code via Home Assistant phone app and you will have all Ikea devices added under the Matter Bridge. 
 {% endnote %}
 
 
